@@ -1,5 +1,6 @@
 cask_args appdir: "/Applications"
 brew "mas"
+brew "gcc"
 brew "python"
 brew "git"
 brew "docker"
@@ -9,7 +10,7 @@ cask 'iterm2'
 cask "google-chrome"
 # cask "android-studio"
 cask "visual-studio-code"
-# cask "sourcetree"
+# cask "sourcetree"al-studio-code"
 cask "google-japanese-ime"
 cask "thunderbird"
 cask "docker"
@@ -18,8 +19,9 @@ cask 'virtualbox' # Might need to allow access in Security settings
 cask 'virtualbox-extension-pack'
 # cask 'java'
 # cask 'eclipse-ide'
-cask 'zoomus'
-mas "Xcode", id:497799835
+cask 'zoom'
+cask 'mos'
+# mas "Xcode", id:497799835
 mas "Battery Monitor: Health, Info", id:836505650  
 mas "Magnet", id:441258766
 # mas "LINE", id: 539883307
